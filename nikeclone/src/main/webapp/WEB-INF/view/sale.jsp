@@ -99,10 +99,14 @@
 
 
 <!-- Back Button with Inline CSS and Home Icon -->
-<a href="javascript:history.back()" style="position: absolute; top: 30px; left: 90%; transform: translateX(-50%); background-color: black; color: white; padding: 10px 15px; font-size: 14px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; z-index: 10;">
+<!-- <a href="javascript:history.back()" style="position: absolute; top: 30px; left: 90%; transform: translateX(-50%); background-color: black; color: white; padding: 10px 15px; font-size: 14px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; z-index: 10;">
     <i class="fas fa-home" style="font-size: 20px;"></i>
 </a>
-
+ -->
+ 
+ 
+ <!--  navbar  -->
+<%@ include file="navbar.jsp" %> 
 
     <!-- Hero Section (Sale Image with Overlay) -->
     <div class="hero">

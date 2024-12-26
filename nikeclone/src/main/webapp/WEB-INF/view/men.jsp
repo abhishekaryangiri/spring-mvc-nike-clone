@@ -14,17 +14,22 @@
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #ADD8E6">
 
 
+<%@ include file="navbar.jsp" %> <!-- Included the navbar here -->
+
+<!-- Rest of the page content -->
 
 
 <!-- Back Button with Inline CSS and Home Icon -->
-<a href="javascript:history.back()" style="position: absolute; top: 30px; left: 90%; transform: translateX(-50%); background-color: transparent; color: white; padding: 10px 15px; font-size: 14px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; z-index: 10;">
-    <i class="fas fa-home" style="font-size: 20px;"></i>
-</a>
 
+<!-- <a href="javascript:history.back()" style="position: absolute; top: 30px; left: 90%; transform: translateX(-50%); background-color: transparent; color: white; padding: 10px 15px; font-size: 14px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; z-index: 10;">
+    <i class="fas fa-home" style="font-size: 20px;"></i>
+</a> -->
 
 
 <!-- Header Section -->
-<div style="background-color:#008B8B; padding: 20px; text-align: center;">
+<div style="background-color: #000000;
+background-image: linear-gradient(180deg, #111 0%, #262e47 50%, #dedbdb 100%);
+  padding: 1px; text-align: center;">
     <h1 style="color: white; font-size: 36px;">Men's Shoes Collection</h1>
 </div>
 

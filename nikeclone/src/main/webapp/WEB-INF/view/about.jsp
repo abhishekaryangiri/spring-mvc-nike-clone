@@ -10,14 +10,21 @@
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; ">
 
 <!-- Back Button with Inline CSS and Home Icon -->
-<a href="javascript:history.back()" style="position: absolute; top: 30px; left: 90%; transform: translateX(-50%); background-color: black; color: white; padding: 10px 15px; font-size: 14px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; z-index: 10;">
+<!-- <a href="javascript:history.back()" style="position: absolute; top: 30px; left: 90%; transform: translateX(-50%); background-color: black; color: white; padding: 10px 15px; font-size: 14px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; z-index: 10;">
     <i class="fas fa-home" style="font-size: 20px;"></i>
 </a>
+ -->
+ 
+ <!--  navbar  -->
+<%@ include file="navbar.jsp" %> 
 
 
 
-    <div style="width: 90%; margin: 0 auto; padding: 20px; ">
-        <h1 style="color: #1a1a1a;">About Nike Shoes</h1>
+ <div style="background-color: #000000;
+background-image: linear-gradient(180deg, #111 0%, #262e47 50%, #dedbdb 100%);
+  padding: 1px; text-align: center;">
+    <h1 style="color: white; font-size: 36px;">About Nike Shoes</h1>
+</div>
 
         <div style="text-align: center; margin-top: 20px;background-color: #111; ">
             <img src="https://img1.wallspic.com/crops/1/3/6/8/4/148631/148631-clothing-sneakers-black-carmine-nike-1920x1080.jpg" alt="Nike Shoes" style="width: 90%; height: auto; border-radius: 8px;" />
